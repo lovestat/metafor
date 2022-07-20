@@ -3,7 +3,7 @@ annotate=TRUE,                             showweights=FALSE, header=FALSE,
 xlim, alim, olim, ylim, at, steps=5, level=95,      refline=0, digits=2L, width,
 xlab, slab,       ilab, ilab.xpos, ilab.pos, order, subset,
 transf, atransf, targs, rows,
-efac=1, pch, psize, plim=c(0.5,1.5),         col,
+efac=1, pch, psize, plim=c(0.5,1.5),         col, col.points,
 lty, fonts, cex, cex.lab, cex.axis, ...) {
 
    #########################################################################
@@ -771,7 +771,7 @@ lty, fonts, cex, cex.lab, cex.axis, ...) {
          next
 
       if (yi[i] >= alim[1] && yi[i] <= alim[2])
-         lpoints(x=yi[i], y=rows[i], pch=pch[i], cex=cex*psize[i], col=col[i], ...)
+         lpoints(x=yi[i], y=rows[i], pch=pch[i], cex=cex*psize[i], col=col.points[i], ...)
 
    }
 
