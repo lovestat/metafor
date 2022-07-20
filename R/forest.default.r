@@ -770,6 +770,7 @@ lty, fonts, cex, cex.lab, cex.axis, ...) {
       if (is.na(yi[i]))
          next
 
+      if (is.null(col.points)) col.points <- col
       if (yi[i] >= alim[1] && yi[i] <= alim[2])
          lpoints(x=yi[i], y=rows[i], pch=pch[i], cex=cex*psize[i], col=col.points[i], ...)
 
