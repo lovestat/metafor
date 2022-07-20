@@ -3,7 +3,7 @@ annotate=TRUE,                             showweights=FALSE, header=FALSE,
 xlim, alim, olim, ylim, at, steps=5, level=95,      refline=0, digits=2L, width,
 xlab, slab,       ilab, ilab.xpos, ilab.pos, order, subset,
 transf, atransf, targs, rows,
-efac=1, pch, psize, plim=c(0.5,1.5),         col, col.points,
+efac=1, pch, psize, plim=c(0.5,1.5),         col, col.points=NULL,
 lty, fonts, cex, cex.lab, cex.axis, ...) {
 
    #########################################################################
